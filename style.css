@@ -1,0 +1,215 @@
+/* CSS styles go here */
+body {
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Work Sans', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#body1 {
+    background-color: black;
+}
+
+#h11 {
+    color: aliceblue;
+}
+
+#h12 {
+    color: aliceblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    padding: 0.4rem;
+    border-bottom: 2px white solid;
+}
+
+.searchbar {
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid whitesmoke;
+}
+
+.searchbar-btn {
+    background-color: aqua;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    padding: 4px;
+}
+
+.searchbar-btn:hover {
+    background-color: #60c2fa;
+}
+
+nav {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: 720;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+main {
+    padding: 2rem;
+    color: red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+}
+
+#image-divcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 300px) ;
+    grid-template-rows: repeat(2, 300px);
+}
+
+.image-divs {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+
+.flexbox-container {
+    height: 900px;
+    background-color: #e8b2b2;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.flexbox-item {
+    width: 300px;
+    flex-basis: 200px;
+    border: 2px solid black;
+    background-color: #4d4242;
+}
+
+.flexbox-item-1 {
+    height: 200px;
+}
+
+.flexbox-item-2 {
+    height: 200px;
+    flex-shrink: 2;
+}
+
+.flexbox-item-3 {
+    height: 200px;
+}
+
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-decoration: solid;
+}
+
+p {
+    color: white;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#div-container {
+    display: flex;
+    height: 500px;
+
+}
+
+#div1 {
+    background-image: url(images/pexels-japneet-singh-15810418.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    width: 30%;
+
+}
+
+#div2 {
+    background-color: darkblue;
+    color: white;
+    text-align: left;
+    text-decoration: solid;
+    text-decoration-color: white;
+    height: 60%;
+    width: 30%;
+}
+
+#div3 {
+    background-image: url(images/pexels-ahmed-nashed-3890524.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    width: 30%;
+}
+
+#div4 {
+    background-color: darkblue;
+    color: #fff;
+    text-align: left;
+    text-decoration: solid;
+    height: 60%;
+    width: 30%;
+}
+
+.footer {
+    background-color: darkblue;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    list-style: none;
+}
+
+.icons li a {
+    color: #fff;
+    text-decoration: none
+}
+
+.icons li a img {
+    height: 24px;
+}
+
+#footer-paragraph {
+    color: #fff;
+}
